@@ -1,0 +1,75 @@
+/* 🌸 General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 50px;
+    background: linear-gradient(to right, #ffd1dc, #fff); /* Soft Pink & White Gradient */
+    color: #ff4d88; /* Bright Pink Text */
+}
+
+/* 🌸 Container Styling */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3); /* Light Pink Shadow */
+}
+
+/* 🌸 Buttons */
+.btn {
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background: #ff4d88; /* Vibrant Pink */
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #ff80b3; /* Soft Pink Hover */
+}
+
+/* 🌸 Counter Section */
+.counter-section {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    background: #ffe6eb;
+    box-shadow: 0 2px 5px rgba(255, 105, 180, 0.3);
+}
+
+/* 🌸 List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ffb6c1;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+/* 🌸 Toggle Box */
+.box {
+    width: 250px;
+    height: 100px;
+    background: #ffb6c1; /* Light Pink */
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    display: none; /* Hidden by default */
+    box-shadow: 0 2px 5px rgba(255, 105, 180, 0.3);
+}
